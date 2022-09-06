@@ -1,0 +1,112 @@
+
+@media screen and (max-width: 1080px) {
+    .lists a {
+        display: none;
+    }
+
+    .list li {
+        display: block;
+    }
+
+    .lists a.icon {
+
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .lists.responsive {
+        position: relative;
+    }
+
+    .lists.responsive .icon {
+        position: absolute;
+        float: right;
+        display: block;
+    }
+
+    .lists.responsive a {
+        float: none;
+        display: block;
+
+    }
+
+    .logo h2 {
+        margin-top: 8px;
+    }
+
+    .lists a.icon {
+        margin-top: 3px;
+    }
+    .box2{
+        width: 206%;
+        
+    }
+    .text1{
+        font-size: 1.5rem;
+    }
+    .text2{
+        font-size: 0,8rem;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .z3{
+        margin-top: 120px;
+    }
+    .s44{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 993px){
+    .g3{
+        margin-top: 25px;
+    }
+    .s33{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 985px){
+    .box2{
+        width: 208%;
+        height: 520px;
+    }
+    
+
+}
+
+@media screen and (max-width: 993px){
+    .z4{
+        margin-top: 120px;
+    }
+}
+@media screen and (max-width: 770px)
+{
+    .box2{
+        width: 210%;
+    }
+    .map{
+        margin-top: 50px;
+    }
+    .z5{
+        margin-top: 120px;
+    }
+}
+@media screen and (max-width: 769px){
+    .g1{
+        margin-top: 25px;
+    }
+    .g2{
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 540px){
+    .box2{
+        width: 212%;
+    }
+}
+@media screen and (max-width: 488px){
+    .s22{
+        margin-top: 20px;
+    }
+}

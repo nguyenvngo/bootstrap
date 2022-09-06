@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bs_node/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+
+    <title>Swimming</title>
+
+    <style>
+        .lists {
+            overflow: hidden;
+        }
+
+        .icon {
+            margin-top: 0px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="logo">
+            <h2>Swimming<sup><img src="./img/img0.png" alt=""></sup></h2>
+        </div>
+
+        <div clas class="lists" id="mylist">
+
+            <a class="home" href="index.html">Home</a>
+
+            <a href="#">About us</a>
+
+            <a href="#">Callary</a>
+
+            <a href="#">Blog</a>
+
+            <a href="#">Contacts</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </a>
+
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("mylist");
+                if (x.className === "lists") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "lists";
+                }
+            }
+        </script>
+
+    </div>
+    <div class="header">
+        <div class="banner">
+            <img src="./img/banner.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div class="info">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="s1">
+                            <h2>Register for swim lessons</h2>
+                            <p>Our experienced in-structors offer a va-riety of swimming lessons for children and teens
+                            </p>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </span>
+                        </div>
+                        </span>
+                    </div>
+
+                    <div class="col s22">
+                        <div class="s2">
+                            <h2>Franchise Opportu-nities</h2>
+                            <p>Swimming School Franchise is posi-tioned as the leader in the thriving chil-dren's
+                                education
+                            </p>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col s33">
+                        <div class="s3">
+                            <h2>What Level Is My Child?</h2>
+                            <p>Use our Level Finder to determine your swim-mer's level or cal us for any assis-tance you
+                                need!</p>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col s44">
+                        <div class="s4">
+                            <h2>Locate a Swim School</h2>
+                            <p>Use our Level Finder to determine your swim-mer's level or call us for any assis-tance you
+                                need!</p>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div style="height: 10px;width:100%;"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main2">
+        <div class="info2">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div style="margin-bottom: 10px;" class="box">
+                            <h2>Welcome to our school!</h2>
+                            <p>Swimming School is proud to provide state-of-the-art aquatic facilities that are
+                                dedicated to
+                                indoor swim classes and programs for children.</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="col g1">
+                        <img src="./img/img1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main2">
+        <div class="info2">
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col">
+                        <img src="./img/img2.png" alt="">
+                    </div>
+                    <div class="col g2">
+                        <div class="box">
+                            <h2>Welcome to our school!</h2>
+                            <p>Swimming School is proud to provide state-of-the-art aquatic facilities that are
+                                dedicated to
+                                indoor swim classes and programs for children.
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="zindex">
+        <div class="container-fluid mt-3">
+            <div class="row">
+
+                <img src="./img/img3.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="main3">
+        <div class="info3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="box2">
+                            <h2 class="text1">Why Our Swimming School is Rated #1 in The Region</h2>
+                            <p style="padding-top:20px;" class="text2">
+                                We offer a variety of private and group ies-sons for children and teens.
+                                The lessons and swimming courses include everything your kid needs to swim confidently.
+                            </p>
+                            <p class="text2">Swimming School is proud to provide state-of-the-art aquatic facilities
+                                that are
+                                dedi-
+                            </p>
+                            <button>Know More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main4">
+            <div class="info4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="box3">
+                                <h2>Our Events</h2>
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet, consectetur</li>
+                                    <li>Xng edit , sed do aiusmod tempor incilabre</li>
+                                    <li>Eolore magan aliqua . Quis ipsum suspendi</li>
+                                    <li>Drices gravida . Risus commodo viverra</li>
+                                    <li>Maecenas accumsan lacus vel facilisis .</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col g3">
+                            <img src="./img/img4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="z1">
+                            <img src="./img/img5.png" alt="">
+                            <p>Thanks you for making me a confident swim-mer! I hope to learn more from the school's
+                                instructors during future lessons.</p>
+                            <h3 style="margin-top:40px;">Anne, 25 y.o</h3>
+                        </div>
+                    </div>
+                    <div class="col z5">
+                        <div style="padding-bottom: 56px;" class="z1">
+                            <img src="./img/img6.png" alt="">
+                            <p>I hated swimming until I joined this swimming school. Their lessons improved my swim-ming
+                                and breathing shills.</p>
+                            <h3 style="margin-top: 60px;">Sam, 23 y.o</h3>
+                        </div>
+                    </div>
+                    <div class="col z4">
+                        <div style="padding-bottom: 56px;" class="z1">
+                            <img src="./img/img7.png" alt="">
+                            <p>I have been going hre for swim-ming lessons for over 3 years and it helped me become a
+                                better swimmer</p>
+                            <h3 style="margin-top: 60px;">Peter, 26 y.o</h3>
+                        </div>
+                    </div>
+                    <div class="col z3">
+                        <div style="padding-bottom: 55px;" class="z1">
+                            <img src="./img/img8.png" alt="">
+                            <p>Joining this school has changed my life as I was afraid of water before but niw I like it
+                                a lot thanks to your les-sons.</p>
+                            <h3 style="margin-top: 60px;">Jane, 20 y.o</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main6">
+            <div class="info6">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="box4">
+                                <h2>Contacts</h2>
+                                <p style="margin-top:30px;">Address 4578 Marmora Road.</p>
+                                <p style="margin-top:-10px;">Glasgow D04 89GR</p>
+                                <div class="phone">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-phone" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                    </svg>
+                                    <span>1-800-2345-6789</span>
+                                </div>
+                                <p style="margin-top:20px;">Email: youremail.com</p>
+                                <div class="infor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                        class="bi bi-chat-heart" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2.965 12.695a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2Zm-.8 3.108.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125ZM8 5.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11000.705135714203!2d105.76314616067364!3d21.015007739875127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1662303847915!5m2!1svi!2s"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Swimming @ 2020 . All Rights Resenved . Privacy Policy .</p>
+        </div>
+
+        <script src="./bs_node/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
